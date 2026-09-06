@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "docpath-check"
+version = "0.1.0"
+description = "Offline local Markdown link and heading checker with zero runtime dependencies"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+
+[project.scripts]
+docpath-check = "docpath:main"
+
+[tool.setuptools]
+py-modules = ["docpath"]
