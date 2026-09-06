@@ -29,7 +29,7 @@ docpath-check 你的项目目录 --json
 - 检查常见 Markdown 标题锚点，支持中文和重复标题编号。
 - 忽略代码围栏、简单行内代码、HTML 注释和外部网址。
 - 提供 JSON 结果，便于接入自动化流程。
-- 附带 Windows 与 Linux 的 GitHub Actions 测试配置。
+- 附带 Windows 与 Linux 的 GitHub Actions 测试配置模板，尚未启用。将 ci/github-actions.yml 复制到 .github/workflows/check.yml 后提交即可启用，需要账号具有工作流写入权限。
 
 ## 已知边界
 
