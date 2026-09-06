@@ -59,8 +59,8 @@ skipped; link targets are resolved and checked against the project root.
 
 ## GitHub Actions
 
-This repository includes a Windows/Linux test matrix in
-[the workflow](.github/workflows/check.yml). To check another repository,
+This repository includes a Windows/Linux test matrix template in
+[the workflow template](ci/github-actions.yml). To enable CI, copy it to `.github/workflows/check.yml` and commit using a GitHub session with workflow write permission. CI is not enabled in this initial upload. To check another repository,
 install this tool from a reviewed source checkout and run `docpath-check .`
 in that repository. No write permissions or secrets are required.
 
